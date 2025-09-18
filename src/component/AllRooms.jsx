@@ -1,7 +1,7 @@
 import React from 'react';
 import { useBooking } from '../context/BookingContext'; // Adjust path if needed
 import RoomCard from '../component/RoomCard'; // Adjust path if needed
-import DatePicker from '../component/Datepicker'
+import DatePicker from '../component/DatePicker'
 
 
 const AllRooms = () => {
