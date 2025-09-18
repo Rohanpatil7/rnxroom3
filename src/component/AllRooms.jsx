@@ -1,11 +1,9 @@
 import React from 'react';
 import { useBooking } from '../context/BookingContext'; // Adjust path if needed
 import RoomCard from '../component/RoomCard'; // Adjust path if needed
-// Line 4 in AllRooms.jsx
-// Corrected Line 4 in AllRooms.jsx
 import DatePicker from '../component/Datepicker'
 
-// import RoomFilters from '../component/RoomFilters';
+
 const AllRooms = () => {
   const { rooms } = useBooking();
 
