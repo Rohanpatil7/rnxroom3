@@ -1,5 +1,5 @@
 import React from 'react'
-import {  Routes, Route } from 'react-router-dom'
+import {Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Booking from './pages/Booking'
 import Payment from './pages/Payment'
@@ -24,11 +24,13 @@ function App() {
           {/* Nav Menu */}
         </div>
       </header>
-      <Routes>
+      
+      <Routes >
         <Route path="/" element={<Home />} />
         <Route path="/booking" element={<Booking />} />
         <Route path='/payment' element={<Payment />} />
       </Routes>
+     
     </>
   )
 }
